@@ -6,6 +6,6 @@ hypernova({
   getComponent(name) {
     return exposed[name]
   },
-  port: 3001
+  port: 3035
 });
 
