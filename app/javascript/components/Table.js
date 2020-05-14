@@ -22,8 +22,8 @@ export default class Table extends Component {
         <table>
           <thead>
             <tr>
-              <th>Title</th>
-              <th>Message</th>
+              <th>タイトル</th>
+              <th>メッセージ</th>
               <th colSpan={3}></th>
             </tr>
           </thead>
