@@ -3,7 +3,7 @@
 require 'hypernova'
 require 'hypernova/plugins/development_mode_plugin'
 
-hypernova.add_plugin!(development_mode_plugin.new)
+Hypernova.add_plugin!(DevelopmentModePlugin.new)
 
 Rails.application.configure do
   # Verifies that versions and hashed value of the package contents in the project's package.json
